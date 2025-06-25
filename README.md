@@ -71,3 +71,7 @@ Conclusion :
 Sentiment analysis is a critical NLP technique that enables machines to understand and interpret human emotions from text data. Using tools like NLTK, scikit-learn, and TextBlob, developers can build models that accurately classify sentiments with minimal effort. While basic models like Naive Bayes provide good results, more complex models like BERT and LSTM can further enhance accuracy, especially for nuanced or sarcastic texts.
 
 As businesses increasingly rely on digital feedback, sentiment analysis offers a scalable and efficient solution to keep track of how people feel—allowing organizations to respond quickly and appropriately. With continued advancements in machine learning and NLP, sentiment analysis will only become more powerful and essential in data-driven decision-making.
+
+OUTPUT :
+
+

@@ -12,7 +12,7 @@ DURATION: 4 weeks
 
 MENTOR: NEELA SANTHOSH
 
-Description of Sentiment Analysis with NLP :
+DESCRIPTION OF SENTIMENT ANALYSIS WITH NLP :
 
 Sentiment Analysis, also known as opinion mining, is a subfield of Natural Language Processing (NLP) that involves determining the emotional tone behind a body of text. It aims to identify whether a piece of writing—such as a product review, tweet, or customer comment—expresses a positive, negative, or neutral sentiment.
 This technique has gained immense popularity with the rise of user-generated content on platforms like social media, forums, and review websites. By automating sentiment detection, organizations can monitor public opinion, assess brand reputation, and make data-driven decisions based on how people feel about their products, services, or events.
@@ -22,7 +22,7 @@ This technique has gained immense popularity with the rise of user-generated con
 •	Monitor brand reputation.
 •	Perform social media monitoring.
 
-Tools for Implementing Sentiment Analysis with NLP :
+TOOLS USED FOR SENTIMENT ANALYSIS WITH NLP :
 
 Sentiment analysis can be implemented using a variety of programming languages and tools, with Python being the most widely used due to its vast ecosystem of NLP libraries.
 Key tools and libraries include:
@@ -33,7 +33,7 @@ spaCy: A fast and industrial-strength NLP library with built-in tokenization, PO
 VADER (Valence Aware Dictionary for sEntiment Reasoning): Specifically designed for sentiment analysis of social media text, providing a pre-trained model that works well out of the box.
 TensorFlow and PyTorch: Useful for advanced deep learning models for sentiment analysis such as LSTMs, GRUs, and transformer-based architectures like BERT.
 
-Implementation of Sentiment Analysis :
+IMPLEMENTATION OF SENTIMENT ANALYSIS :
 
 A typical sentiment analysis project includes several key steps:
 Data Collection: In this case, we use the movie_reviews dataset from NLTK, which contains 2000 movie reviews labeled as either positive or negative.
@@ -41,7 +41,7 @@ Data Preprocessing: The text data is cleaned and vectorized using tools like Cou
 Model Training: A classification algorithm, such as Multinomial Naive Bayes, is trained on the vectorized training data.
 Model Evaluation: The model is tested on unseen data, and its performance is evaluated using metrics such as accuracy, precision, recall, and F1-score.
 
- Visualization of Sentiment Analysis with NLP :
+ VISUALISATION OF SENTIMENT ANALYSIS :
  
 Visualization in sentiment analysis plays a crucial role in interpreting and communicating the results of your analysis. It helps transform raw model outputs into meaningful insights by illustrating sentiment trends, class distributions, and model performance in an intuitive and accessible way.
 Why Visualization Matters in Sentiment Analysis:
@@ -50,14 +50,14 @@ Compare predicted vs. actual labels for model evaluation.
 Identify misclassifications and model weaknesses.
 Monitor sentiment over time in real-time applications (e.g., tracking public mood on social media).
 
-Dataset Used in Sentiment Analysis Code :
+DATASET USED :
 
 The code provided uses the movie_reviews dataset from the NLTK library. This dataset contains 2000 movie reviews categorized as:
 1000 positive reviews
 1000 negative reviews
 Each review is stored as a plain text file, and the dataset is often used for benchmark testing in sentiment analysis research and practice.
 
-Applications of Sentiment Analysis :
+APPLICATION OF SENTIMENT ANALYSIS :
 
 Sentiment analysis has numerous real-world applications:
 Business Intelligence: Companies use sentiment analysis to analyze customer feedback, reviews, and survey responses to improve products and services.
@@ -66,7 +66,7 @@ Market Research: Helps identify trends and measure public sentiment about new la
 Politics: Used to analyze public opinion on political candidates, policies, and debates.
 Customer Service: Automated systems use sentiment analysis to prioritize or escalate customer support tickets based on tone.
 
-Conclusion :
+CONCLUSION :
 
 Sentiment analysis is a critical NLP technique that enables machines to understand and interpret human emotions from text data. Using tools like NLTK, scikit-learn, and TextBlob, developers can build models that accurately classify sentiments with minimal effort. While basic models like Naive Bayes provide good results, more complex models like BERT and LSTM can further enhance accuracy, especially for nuanced or sarcastic texts.
 
